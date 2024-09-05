@@ -1,0 +1,46 @@
+.parent{
+    background-color: rgb(241, 243, 246);
+   display: grid;
+   width: 1000px;
+   height: 1000px;
+  
+   grid-template-rows: 25% 25% 25% 25%;
+   gap: 50px;
+
+}
+.parent div{
+   
+}
+.parent div{
+    background-color: rgb(232, 232, 255);
+   
+
+}
+
+.p1{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    gap: 10px;
+}/*
+.p1 div{
+    background-color: aquamarine;
+}*/
+.bold{
+    font-size: 25px;
+   
+    
+}
+.r1{
+    color: rgb(70, 70, 229);
+}
+.r2{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column: 100px;
+   
+}
+img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
